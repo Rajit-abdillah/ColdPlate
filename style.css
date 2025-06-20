@@ -16,7 +16,7 @@ nav {
 }
 
 .logo{
-  background-image: url(/assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png);
+  background-image: url(./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png);
 }
 
 #navbar {
@@ -77,7 +77,7 @@ nav {
 
   span.restaurant-bg {
     position: relative;
-    background-image: url(/assets/restaurant-background.jpgg.jpg); /* you can change the image here to your own restaurant background */
+    background-image: url(./assets/restaurant-background.jpgg.jpg); /* you can change the image here to your own restaurant background */
     background-size: cover;
     background-position: center;
     width: 100vw;
