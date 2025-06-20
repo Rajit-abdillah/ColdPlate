@@ -77,7 +77,7 @@ nav {
 
   span.restaurant-bg {
     position: relative;
-    background-image: url(/assets/restaurant-background.jpgg.jpg); /* you can change the image here to your own restaurant background */
+    background-image: url(./assets/restaurant-background.jpgg.jpg); /* you can change the image here to your own restaurant background */
     background-size: cover;
     background-position: center;
     width: 100vw;
