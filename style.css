@@ -131,24 +131,61 @@ nav {
   }
 
 #about {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 4rem auto;
   padding: 2rem;
   color: white;
   border-radius: 16px;
-  text-align: center;
 }
 
-#about h1 {
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* for responsiveness */
+}
+
+.about-text {
+  flex: 1 1 50%;
+}
+
+.about-text h1 {
   font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #11c1ea;
 }
 
-#about p {
+.about-text p {
   font-size: 1.15rem;
   color: white;
   line-height: 2.5rem;
-  margin-bottom: 1rem;
   text-align: justify;
+}
+
+.about-image {
+  flex: 1 1 40%;
+}
+
+.about-image img {
+  width: 100%;
+  height: 600px;
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text, .about-image {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 80%;
+    height: auto;
+  }
+  
 }
