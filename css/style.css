@@ -289,7 +289,7 @@ span.restaurant-bg p {
 }
 
 
-.others-text span.deserts-card{
+.others-text span.desserts-card{
   display: inline-block;
   width: 360px;
   height: auto;
@@ -300,21 +300,21 @@ span.restaurant-bg p {
   color: white;
 }
 
-.others-text span.deserts-card li {
+.others-text span.desserts-card li {
   font-size: 20px;
   margin-bottom: 0.5rem;
 }
 
-.deserts-list {
+.desserts-list {
   list-style-position: inside;
   padding-left: 0;
 }
 
-.deserts-list li {
+.desserts-list li {
   margin: 0.5rem 0;
 }
 
-.deserts-list .item {
+.desserts-list .item {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -330,7 +330,7 @@ span.restaurant-bg p {
 
   .others-text span.drinks-card,
   .others-text span.foods-card,
-  .others-text span.deserts-card {
+  .others-text span.desserts-card {
     width: 100%;
     max-width: 360px;
   }
