@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      href="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
+    />
+    <!-- Change this to your restaurant logo which will appear in the browser tab-->
     <title>FoodPlace</title>
   </head>
   <body>
@@ -21,11 +26,10 @@
             height="60px"
           />
         </div>
-        <!-- you should change your logo here-->
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <div class="burger">&#9776;</div>
@@ -33,12 +37,14 @@
     </header>
 
     <main>
-      <span class="restaurant-bg"
-        ><h1>welcome to foodplace</h1>
+      <span
+        class="restaurant-bg"
+        style="background-image: url(./assets/restaurant-background.jpgg.jpg)"
+        ><h1>Welcome to foodplace</h1>
         <p>
-          we serve high quality foods and refreshing drinks at reasonable price
+          We serve high quality foods and refreshing drinks at reasonable price
         </p>
-        <a href="#about">About Us</a>
+        <a href="#about" class="button">About Us</a>
       </span>
       <section id="about">
         <div class="about-container">
@@ -64,7 +70,86 @@
         </div>
       </section>
 
-      <!-- Contact -->
+      <section id="menu">
+        <div class="others-text">
+          <h1>Our menu</h1>
+          <p>
+            Explore our delicious menu offerings, crafted with the finest
+            ingredients to satisfy your cravings.
+          </p>
+
+          <div class="cards-style">
+          <span class="drinks-card">
+            <h2 style="text-align: center">Drinks</h2>
+            <ol class="drinks-list"> <!-- you can add as many items as you'd like, the menu will expand automatically-->
+              <li>
+                <div class="item">
+                  <span>Apple juice</span><span>$2.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Coffee</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Tea</span><span>$1.50</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Milkshake</span><span>$3.00</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Soda</span><span>$1.25</span></div>
+              </li>
+            </ol>
+          </span>
+
+          <span class="foods-card">
+            <h2 style="text-align: center;">Foods</h2>
+          <ol class="foods-list">
+            <li>
+                <div class="item">
+                  <span>Hot Dog</span><span>$2.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Burger</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item"><span>French Fries</span><span>$1.50</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Spaghetti</span><span>$3.00</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Steak</span><span>$1.25</span></div>
+              </li>
+          </ol>
+          </span>
+
+          <span class="deserts-card">
+            <h2 style="text-align: center;">Foods</h2>
+          <ol class="deserts-list">
+            <li>
+                <div class="item">
+                  <span>Hot Dog</span><span>$2.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Burger</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item"><span>French Fries</span><span>$1.50</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Spaghetti</span><span>$3.00</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Steak</span><span>$1.25</span></div>
+              </li>
+          </ol>
+          </span>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
