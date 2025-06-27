@@ -204,8 +204,9 @@ span.restaurant-bg p {
 .cards-style{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   gap: 2rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .others-text h1 {
@@ -222,7 +223,7 @@ span.restaurant-bg p {
   text-align: center;
 }
 
-.others-text span.drinks-card{
+.others-text span.menu-card{
   display: inline-block;
   width: 360px;
   height: auto;
@@ -233,88 +234,21 @@ span.restaurant-bg p {
   color: white;
 }
 
-.others-text span.drinks-card li {
+.menu-text span.menu-card li {
   font-size: 20px;
   margin-bottom: 0.5rem;
 }
 
-.drinks-list {
+.menu-list {
   list-style-position: inside;
   padding-left: 0;
 }
 
-.drinks-list li {
+.menu-list li {
   margin: 0.5rem 0;
 }
 
-.drinks-list .item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px dashed #444; /* optional divider */
-  padding-bottom: 4px;
-}
-
-.others-text span.foods-card{
-  display: inline-block;
-  width: 360px;
-  height: auto;
-  background-color: #333;
-  border-radius: 16px;
-  padding: 1rem;
-  margin: 1rem;
-  color: white;
-}
-
-.others-text span.foods-card li {
-  font-size: 20px;
-  margin-bottom: 0.5rem;
-}
-
-.foods-list {
-  list-style-position: inside;
-  padding-left: 0;
-}
-
-.foods-list li {
-  margin: 0.5rem 0;
-}
-
-.foods-list .item {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  border-bottom: 1px dashed #444; /* optional divider */
-  padding-bottom: 4px;
-}
-
-
-.others-text span.desserts-card{
-  display: inline-block;
-  width: 360px;
-  height: auto;
-  background-color: #333;
-  border-radius: 16px;
-  padding: 1rem;
-  margin: 1rem;
-  color: white;
-}
-
-.others-text span.desserts-card li {
-  font-size: 20px;
-  margin-bottom: 0.5rem;
-}
-
-.desserts-list {
-  list-style-position: inside;
-  padding-left: 0;
-}
-
-.desserts-list li {
-  margin: 0.5rem 0;
-}
-
-.desserts-list .item {
+.menu-list .item {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -328,11 +262,9 @@ span.restaurant-bg p {
     align-items: center;
   }
 
-  .others-text span.drinks-card,
-  .others-text span.foods-card,
-  .others-text span.desserts-card {
+  .others-text span.menu-card {
     width: 100%;
-    max-width: 360px;
+    max-width: 280px;
   }
   
 }
