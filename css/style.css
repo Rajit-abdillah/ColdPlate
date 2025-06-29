@@ -223,6 +223,11 @@ span.restaurant-bg p {
   text-align: center;
 }
 
+.others-text h2{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+}
+
 .others-text span.menu-card{
   display: inline-block;
   width: 360px;
