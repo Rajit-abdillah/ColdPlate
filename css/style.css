@@ -193,6 +193,7 @@ span.restaurant-bg p {
   }
 }
 
+/* menu cards */
 #menu{
   background-color: #222222;
   color: white;
@@ -225,7 +226,7 @@ span.restaurant-bg p {
 }
 
 .others-text h2{
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.5rem;
 }
 
