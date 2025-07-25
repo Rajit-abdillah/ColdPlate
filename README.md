@@ -14,7 +14,7 @@ This project is open source under the [MIT License](https://opensource.org/licen
 # ScreenShots
 ![Screenshot from 2025-07-02 22-37-03](https://github.com/user-attachments/assets/d562b367-576d-4124-a75c-160cee600fff)
 
-Check out the live website [here](https://rajit-abdillah.github.io/ColdBowl/)
+Check out the live website [here](https://rajit-abdillah.github.io/ColdPlate/)
 
 Feel free to give some FeedBacks to improve this website!
 Made by [Rajit Abdillah](https://github.com/Rajit-abdillah)
