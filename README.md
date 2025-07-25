@@ -6,7 +6,7 @@ With this template, you dont need to touch the css or JavaScript, except if you 
 1. Download or clone this repo
 2. Open `index.html` in a browser
 3. Replace the images, text, and content with your own
-4. (Optional) Tweak styles in `style.css` if needed
+4. (Optional) Tweak styles in `style.css` if needed, there will be comments to guide with customization
 
 # License
 This project is open source under the [MIT License](https://opensource.org/licenses/MIT) — feel free to use and modify it for your own projects!
