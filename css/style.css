@@ -203,9 +203,9 @@ span.restaurant-bg p {
 }
 
 .cards-style{
-  display: flex;  
+  display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
   padding: 1rem;
