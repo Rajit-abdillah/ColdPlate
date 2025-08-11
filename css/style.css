@@ -208,7 +208,7 @@ span.restaurant-bg p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 1rem;
+  
 }
 
 .others-text h1 {
@@ -267,6 +267,7 @@ span.restaurant-bg p {
   .cards-style {
     flex-direction: column;
     align-items: center;
+
   }
 
   .others-text span.menu-card {
