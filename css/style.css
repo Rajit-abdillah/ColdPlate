@@ -205,7 +205,7 @@ span.restaurant-bg p {
 .cards-style{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
   padding: 1rem;
