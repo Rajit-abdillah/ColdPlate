@@ -75,10 +75,10 @@ nav {
     flex-direction: row;
     background: black;
     position: absolute;
-    bottom: 10px;
+    bottom: 3px;
     right: 0;
     width: 100%;
-    height: 15vh;
+    height: 16vh;
     gap: 1rem;
     align-items: center;     
     justify-content: center; 
@@ -87,7 +87,8 @@ nav {
   }
   
   .nav-links li a {
-    font-size: 15px; 
+    font-size: 16px; 
+    display: flex;
     gap: 5rem;
   }
 
