@@ -18,6 +18,5 @@ window.addEventListener('scroll', () => {
 
  * Toggle navigation menu on small screens
  * and change navbar style on scroll
- * @author Rajit Abdillah <https://github.com/Rajit-abdillah>
-
+ 
 */
