@@ -1,12 +1,12 @@
-# ColdBowl
-This is ColdBowl, an open source, one page restaurant template targetting small restaurant owner that doesn't need to hire a frontend developer.
-With this template, you dont need to touch the css or JavaScript, except if you need to make some configuration.
+# ColdPlate
+This is ColdPlate, an open source, one page restaurant template targetting small restaurant owner that doesn't have experience in coding and wants quick visibility.
+With this template, you dont need to touch the css or JavaScript, except if you need to make some configuration, everything is ready to edit in the html with user friendly comment guide
 
 # How to use
 1. Download or clone this repo
 2. Open `index.html` in a browser
 3. Replace the images, text, and content with your own
-4. (Optional) Tweak styles in `style.css` if needed, there will be comments to guide with customization
+4. (Optional) Tweak styles in `style.css` or `script.js` if needed, there will be comments to guide with customization
 
 # License
 This project is open source under the [MIT License](https://opensource.org/licenses/MIT) — feel free to use and modify it for your own projects!
