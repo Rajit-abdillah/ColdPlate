@@ -1,259 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- up there is the links to google font, you can change it by visiting "google font" and get your own font there and replace the original link, if you want to change the menu title, go to css line 229, google font shall give you the css code to paste, to change the whole other font of the website, go to css line 6 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <script
-      src="https://kit.fontawesome.com/fd9623331f.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- up there is the links to font awesome, you can change it by visiting "font awesome" and get your own font there and replace the original link -->
-    <!-- Change this to your restaurant logo which will appear in the browser tab-->
-    <link
-      rel="icon"
-      href="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
-    />
-    <title>FoodPlace</title>
-  </head>
-  <body>
-    <header id="navbar">
-      <nav>
-        <div class="logo">
-          <img
-            src="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
-            alt="your logo here"
-            width="60px"
-            height="60px"
-          />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+
+
+  <!-- up there is the links to google font, 
+     you can change it by visiting "google font"
+      and get your own font there and replace the original link,
+      if you want to change the menu title, go to css line 229,
+       google font shall give you the css code to paste,
+        to change the whole other font of the website, go to css line 6 -->
+
+  <script src="https://kit.fontawesome.com/fd9623331f.js" crossorigin="anonymous"></script>
+  <!-- up there is the links to font awesome, 
+   you can change it by visiting "font awesome" 
+   and get your own font there and replace the original link -->
+
+
+  <!-- Change this to your restaurant logo which will appear in the browser tab-->
+  <link rel="icon" href="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png" />
+  <title>FoodPlace</title>
+</head>
+
+<body>
+  <header id="navbar">
+    <nav>
+      <div class="logo">
+        <img src="./assets/vecteezy_bowl-illustrated-on-a-white-background_8193816-removebg-preview.png"
+          alt="your logo here" width="60px" height="60px" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">&#9776;</div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Change this to your restaurant background image, 
+     it will tint automatically, though you can configure it in the css, 
+     go to css line 113 to configure the tint -->
+    <span class="restaurant-bg" style="background-image: url(./assets/restaurant-background.jpgg.jpg)">
+      <h1>Welcome to foodplace</h1>
+      <p>
+        We serve high quality foods and refreshing drinks at reasonable price
+      </p>
+      <a href="#about" class="button">About Us</a>
+    </span>
+    <section id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h1>About Us</h1>
+          <p>
+            FoodPlace is a modern restaurant dedicated to serving delicious,
+            high-quality meals in a welcoming atmosphere. Our chefs use fresh
+            ingredients to craft a diverse menu that caters to all tastes.
+            Whether you're joining us for a family dinner, a quick lunch, or a
+            special celebration, our friendly staff is here to make your
+            experience memorable. Come taste the difference at FoodPlace!
+            <!--add as much as you'd like, the about section will expand automatically-->
+          </p>
+
+          <p>
+            built in 2025, we aim to provide reasonable prices for high
+            quality, for everyone.
+          </p>
         </div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger">&#9776;</div>
-      </nav>
-    </header>
+        <div class="about-image">
+          <img src="./assets/noodle-bowl.jpg" alt="Food" />
+        </div>
+      </div>
+    </section>
 
-    <main>
-      <!-- Change this to your restaurant background image, it will tint automatically, though you can configure it in the css, go to css line 113 to configure the tint -->
-      <span
-        class="restaurant-bg"
-        style="background-image: url(./assets/restaurant-background.jpgg.jpg)"
-      >
-        <h1>Welcome to foodplace</h1>
+    <section id="menu">
+      <div class="others-text">
+        <h1>Our menu</h1>
         <p>
-          We serve high quality foods and refreshing drinks at reasonable price
-        </p>
-        <a href="#about" class="button">About Us</a>
-      </span>
-      <section id="about">
-        <div class="about-container">
-          <div class="about-text">
-            <h1>About Us</h1>
-            <p>
-              FoodPlace is a modern restaurant dedicated to serving delicious,
-              high-quality meals in a welcoming atmosphere. Our chefs use fresh
-              ingredients to craft a diverse menu that caters to all tastes.
-              Whether you're joining us for a family dinner, a quick lunch, or a
-              special celebration, our friendly staff is here to make your
-              experience memorable. Come taste the difference at FoodPlace!
-              <!--add as much as you'd like, the about section will expand automatically-->
-            </p>
-
-            <p>
-              built in 2025, we aim to provide reasonable prices for high
-              quality, for everyone.
-            </p>
-          </div>
-          <div class="about-image">
-            <img src="./assets/noodle-bowl.jpg" alt="Food" />
-          </div>
-        </div>
-      </section>
-
-      <section id="menu">
-        <div class="others-text">
-          <h1>Our menu</h1>
-          <p>
-            Explore our delicious menu offerings, crafted with the finest
-            ingredients to satisfy your cravings.
-          </p>
-
-          <!-- you can add as many items as you'd like, the menu will expand automatically-->
-          <div class="cards-style">
-            <span class="menu-card">
-              <h2 style="text-align: center">Drinks</h2>
-              <ol class="menu-list">
-                <li>
-                  <div class="item">
-                    <span>Apple juice</span><span>$2.50</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item"><span>Coffee</span><span>$1.75</span></div>
-                </li>
-                <li>
-                  <div class="item"><span>Tea</span><span>$1.50</span></div>
-                </li>
-                <li>
-                  <div class="item">
-                    <span>Milkshake</span><span>$3.00</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item"><span>Soda</span><span>$1.25</span></div>
-                </li>
-              </ol>
-            </span>
-
-            <span class="menu-card">
-              <h2 style="text-align: center">Foods</h2>
-              <ol class="menu-list">
-                <li>
-                  <div class="item"><span>Hot Dog</span><span>$2.50</span></div>
-                </li>
-                <li>
-                  <div class="item"><span>Burger</span><span>$1.75</span></div>
-                </li>
-                <li>
-                  <div class="item">
-                    <span>French Fries</span><span>$1.50</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item">
-                    <span>Spaghetti</span><span>$3.00</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item"><span>Steak</span><span>$1.25</span></div>
-                </li>
-              </ol>
-            </span>
-
-            <span class="menu-card">
-              <h2 style="text-align: center">desserts</h2>
-              <ol class="menu-list">
-                <li>
-                  <div class="item">
-                    <span>Ice cream</span><span>$2.50</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item"><span>Cakes</span><span>$1.75</span></div>
-                </li>
-                <li>
-                  <div class="item">
-                    <span>Macarrons</span><span>$1.50</span>
-                  </div>
-                </li>
-                <li>
-                  <div class="item"><span>Crepes</span><span>$3.00</span></div>
-                </li>
-                <li>
-                  <div class="item"><span>Jellies</span><span>$1.25</span></div>
-                </li>
-              </ol>
-              <!--you can change the price, items name as much as you'd like-->
-            </span>
-          </div>
-        </div>
-      </section>
-
-      <section id="misc">
-        <div class="misc-container">
-          <h1>Shots</h1>
-          <p>
-            Check out some of our restaurant shots, taken by our team to
-            showcase our delicious food and inviting atmosphere.
-          </p>
-          <div class="misc-images">
-            <img src="./assets/photoshoot1.jpeg" alt="Food Shot 1" />
-            <img src="./assets/photoshoot2.jpg" alt="Food Shot 2" />
-            <img src="./assets/photoshoot3.jpg" alt="Food Shot 3" />
-            <img src="./assets/photoshoot4.jpg" alt="Food Shot 4" />
-            <img src="./assets/photoshoot5.jpg" alt="Food Shot 5" />
-            <img src="./assets/photoshoot6.jpg  " alt="Food Shot 6" />
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact & Information</h2>
-        <p class="subtext">
-          Here you can find our address, phone number, and email.
+          Explore our delicious menu offerings, crafted with the finest
+          ingredients to satisfy your cravings.
         </p>
 
-        <div class="contact-cards">
-          <div class="card">
-            <div class="icon">📍</div>
-            <h3>ADDRESS</h3>
-            <p>12 34 address</p>
-          </div>
+        <!-- you can add as many items as you'd like, the menu will expand automatically-->
+        <div class="cards-style">
+          <span class="menu-card">
+            <h2 style="text-align: center">Drinks</h2>
+            <ol class="menu-list">
+              <li>
+                <div class="item">
+                  <span>Apple juice</span><span>$2.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Coffee</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Tea</span><span>$1.50</span></div>
+              </li>
+              <li>
+                <div class="item">
+                  <span>Milkshake</span><span>$3.00</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Soda</span><span>$1.25</span></div>
+              </li>
+            </ol>
+          </span>
 
-          <div class="card">
-            <div class="icon">📞</div>
-            <h3>PHONE</h3>
-            <p>1234567890</p>
-          </div>
+          <span class="menu-card">
+            <h2 style="text-align: center">Foods</h2>
+            <ol class="menu-list">
+              <li>
+                <div class="item"><span>Hot Dog</span><span>$2.50</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Burger</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item">
+                  <span>French Fries</span><span>$1.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item">
+                  <span>Spaghetti</span><span>$3.00</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Steak</span><span>$1.25</span></div>
+              </li>
+            </ol>
+          </span>
 
-          <div class="card">
-            <div class="icon">📧</div>
-            <h3>EMAIL</h3>
-            <p>business@info.com</p>
-          </div>
+          <span class="menu-card">
+            <h2 style="text-align: center">desserts</h2>
+            <ol class="menu-list">
+              <li>
+                <div class="item">
+                  <span>Ice cream</span><span>$2.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Cakes</span><span>$1.75</span></div>
+              </li>
+              <li>
+                <div class="item">
+                  <span>Macarrons</span><span>$1.50</span>
+                </div>
+              </li>
+              <li>
+                <div class="item"><span>Crepes</span><span>$3.00</span></div>
+              </li>
+              <li>
+                <div class="item"><span>Jellies</span><span>$1.25</span></div>
+              </li>
+            </ol>
+            <!--you can change the price, items name as much as you'd like-->
+          </span>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="footer">
-        <div class="footer-container">
-          <h2>Follow Us</h2>
-          <p>
-            Stay connected with us on social media for the latest updates and
-            promotions.
-          </p>
+    <section id="misc">
+      <div class="misc-container">
+        <h1>Shots</h1>
+        <p>
+          Check out some of our restaurant shots, taken by our team to
+          showcase our delicious food and inviting atmosphere.
+        </p>
+        <div class="misc-images">
+          <img src="./assets/photoshoot1.jpeg" alt="Food Shot 1" />
+          <img src="./assets/photoshoot2.jpg" alt="Food Shot 2" />
+          <img src="./assets/photoshoot3.jpg" alt="Food Shot 3" />
+          <img src="./assets/photoshoot4.jpg" alt="Food Shot 4" />
+          <img src="./assets/photoshoot5.jpg" alt="Food Shot 5" />
+          <img src="./assets/photoshoot6.jpg  " alt="Food Shot 6" />
+        </div>
+      </div>
+    </section>
 
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-          </div>
+    <section id="contact">
+      <h2>Contact & Information</h2>
+      <p class="subtext">
+        Here you can find our address, phone number, and email.
+      </p>
+
+      <div class="contact-cards">
+        <div class="card">
+          <div class="icon">📍</div>
+          <h3>ADDRESS</h3>
+          <p>12 34 address</p>
         </div>
 
-        <!-- change your social links up there, you can add more by visiting "font awesome" and get your own icons there -->
+        <div class="card">
+          <div class="icon">📞</div>
+          <h3>PHONE</h3>
+          <p>1234567890</p>
+        </div>
 
-        <footer>
-          &copy; 2025 FoodPlace.
-          <br />
-          developed by
-          <a
-            style="color: white; text-decoration: underline"
-            href="https://github.com/Rajit-abdillah"
-            >Rajit Abdillah</a
-          >
-          <br />
-        </footer>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+        <div class="card">
+          <div class="icon">📧</div>
+          <h3>EMAIL</h3>
+          <p>business@info.com</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="footer-container">
+        <h2>Follow Us</h2>
+        <p>
+          Stay connected with us on social media for the latest updates and
+          promotions.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- change your social links up there, 
+       you can add more by visiting "font awesome" and get your own icons there -->
+
+      <footer>
+        &copy; 2026 FoodPlace.
+        <br />
+        developed by
+        <a style="color: white; text-decoration: underline" href="https://github.com/Rajit-abdillah">Rajit Abdillah</a>
+        <br />
+      </footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
 </html>
