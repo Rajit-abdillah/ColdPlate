@@ -6,7 +6,6 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   background-color: black;
-  scroll-margin-top: 100px;
 }
 
 /* below you can change the text color or the button color */
@@ -80,19 +79,19 @@ nav {
     width: 100%;
     height: 16vh;
     gap: 1rem;
-    align-items: center;     
-    justify-content: center; 
-    padding: 0;               
-    margin: 0; 
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
   }
-  
+
   .nav-links li a {
-    font-size: 16px;     
+    font-size: 16px;
     padding: 10px 2px;
   }
 
   .nav-links.active {
-    display: flex;    
+    display: flex;
   }
 
   .burger {
@@ -100,12 +99,13 @@ nav {
     z-index: 999;
   }
 }
+
 /* here you can customize the hero section of the template */
 span.restaurant-bg {
   position: relative;
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   color: white;
   display: flex;
@@ -124,12 +124,11 @@ span.restaurant-bg::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(
-    0,
-    0,
-    0,
-    0.6
-  ); /* here, you can choose to have your restaurant background tinted or not */
+  background: rgba(0,
+      0,
+      0,
+      0.6);
+  /* here, you can choose to have your restaurant background tinted or not */
   z-index: 1;
 }
 
@@ -193,6 +192,7 @@ span.restaurant-bg p {
   height: 37.5rem;
   border-radius: 16px;
 }
+
 /* responsive codes for the about section */
 @media screen and (max-width: 768px) {
   .about-container {
@@ -227,6 +227,7 @@ span.restaurant-bg p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
+
 }
 
 .others-text h1 {
@@ -277,7 +278,8 @@ span.restaurant-bg p {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 1px dashed #444; /* optional divider */
+  border-bottom: 1px dashed #444;
+  /* optional divider */
   padding-bottom: 4px;
 }
 
@@ -298,6 +300,7 @@ span.restaurant-bg p {
   color: white;
   padding: 2rem;
 }
+
 .misc-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -329,9 +332,9 @@ span.restaurant-bg p {
   break-inside: avoid;
   transition: 1s ease;
 }
+
 .misc-images img:hover {
   transform: scale(1.05);
-  filter: brightness(0.8);
   border-radius: 8px;
 }
 
